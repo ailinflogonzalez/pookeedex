@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./img/grass.jpg);
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+header h1 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  background-color: rgb(202, 0, 0);
+  align-items: center;
+  justify-content: center;
+  border: 3.5px solid #000000;
+  border-radius: 6px;
+}
+
+footer {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  border: 3.5px solid #000000;
+  border-radius: 6px;
+}
+
+main {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid rgba(88, 194, 236, 0.65);
+  background-color: rgba(135, 207, 235, 0.507);
+  border-radius: 1px;
+}
+
+.inputFields {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.pokemonStatsContainer {
+  text-align: center;
+}
+
+/* .pokemonStats {
+  text-align: center;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
